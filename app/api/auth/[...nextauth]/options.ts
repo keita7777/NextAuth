@@ -26,7 +26,7 @@ const options: NextAuthOptions = {
     GoogleProvider({
       profile(profile) {
         // console.log("Profile Google", profile);
-        let userRole = "USER";
+        const userRole = "USER";
         // if (profile?.email == "jake@claritycoders.com") {
         //   userRole = "ADMIN";
         // }
